@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "CCTest"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.homepage     = "https://github.com/Chenchenrun/CCTest"
   s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
@@ -35,7 +35,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-s.source_files = "CCTest/"
+  s.source_files = "CCTest/*"
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
